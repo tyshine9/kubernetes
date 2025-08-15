@@ -1,7 +1,7 @@
 #!/bin/bash
 # sync-to-k8s-nodes.sh
 # 用法：./sync-to-k8s-nodes.sh /abs/path/file  [m|w]
-
+#路径/usr/local/sbin/data_rsync.sh
 # 1. 参数个数检查
 [[ $# -lt 1 ]] && {
     echo "Usage: $0 /abs/path/file [mode: m|w]"
